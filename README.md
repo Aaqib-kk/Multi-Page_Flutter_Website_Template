@@ -32,5 +32,3 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 - The Flutter team for creating an amazing framework.
 - Special thanks to the open-source community for their valuable contributions.
-
->>>>>>> fc0927981d558be11fa8a41d8e3bc4e55747016e
