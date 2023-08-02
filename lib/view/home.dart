@@ -4,6 +4,7 @@ import 'package:my_website/repository/repository.dart';
 import 'dart:html' as html;
 
 import 'package:my_website/view/event_page.dart';
+import 'package:my_website/view/login-view.dart';
 
 class MyRouterDelegate extends RouterDelegate<PageConfiguration>
     with ChangeNotifier, PopNavigatorRouterDelegateMixin<PageConfiguration> {
@@ -131,6 +132,23 @@ class _HomePageState extends State<HomePage> with RouteAware {
     return Scaffold(
       appBar: AppBar(
         title: Text('Home Page'),
+        actions: [
+          // Add the login button at the top of the home page
+          TextButton(
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                    builder: (context) =>
+                        LoginPage()), // Navigate to the login page
+              );
+            },
+            child: Text(
+              'Login',
+              style: TextStyle(color: Colors.white),
+            ),
+          ),
+        ],
       ),
       body: Center(
         child: Column(
