@@ -1,21 +1,3 @@
-<<<<<<< HEAD
-# my_website
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
 # Multi-Page Flutter Website Template
 
 This repository provides a template for building multi-page websites using Flutter. The template comes with a simple dropdown navigation that allows users to select different organizations. Upon selection, the website displays events related to the chosen organization.
@@ -50,5 +32,3 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 - The Flutter team for creating an amazing framework.
 - Special thanks to the open-source community for their valuable contributions.
-
->>>>>>> fc0927981d558be11fa8a41d8e3bc4e55747016e
